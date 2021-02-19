@@ -1,6 +1,7 @@
 # Automation Engineer test
 
-- Find the App and swagger definition in https://automation-engineer-test.herokuapp.com/
+- Find the App in https://automation-engineer-test.herokuapp.com/
+- Find the Swagger file in https://automation-engineer-test.herokuapp.com/api-docs
 
 ## First of all
 
