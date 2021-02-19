@@ -1,0 +1,14 @@
+{
+  "customer": [
+    {
+      "id": 1,
+      "name": "Our first customer",
+      "email": "first-customer@bonhams.com"
+    },
+    {
+      "id": 2,
+      "name": "Our second customer",
+      "email": "second-customer@bonhams.com"
+    }
+  ]
+}
