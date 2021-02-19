@@ -4,6 +4,7 @@ info:
   version: 1.0.0
 schemes:
   - "http"
+  - "https"
 paths:
   /customer:
     get:
