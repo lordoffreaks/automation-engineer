@@ -7,7 +7,7 @@ const middlewares = jsonServer.defaults();
 const swaggerUi = require("swagger-ui-express");
 const swaggerDocument = YAML.load("./spec.swagger.yaml");
 
-server.use("/", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+server.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 server.use(middlewares);
 server.use(router);
 const port = process.env.PORT || 3000;
