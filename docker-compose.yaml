@@ -3,10 +3,24 @@ version: "3.7"
 services:
   cypress:
     # the Docker image to use from https://github.com/cypress-io/cypress-docker-images
-    image: "cypress/included:3.2.0"
+    image: "cypress/included:6.2.1"
     environment:
       # pass base url to test pointing at the web application
       - CYPRESS_baseUrl=https://automation-engineer-test.herokuapp.com
+      - CYPRESS_videosFolder=cypress/videos/headless
+    # share the current folder as volume to avoid copying
+    working_dir: /e2e
+    volumes:
+      - ./:/e2e
+
+  cypress-chrome:
+    # the Docker image to use from https://github.com/cypress-io/cypress-docker-images
+    image: "cypress/included:6.2.1"
+    command: ["--browser", "chrome"]
+    environment:
+      # pass base url to test pointing at the web application
+      - CYPRESS_baseUrl=https://automation-engineer-test.herokuapp.com
+      - CYPRESS_videosFolder=cypress/videos/chrome
     # share the current folder as volume to avoid copying
     working_dir: /e2e
     volumes:
