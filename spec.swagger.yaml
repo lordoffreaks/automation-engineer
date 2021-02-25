@@ -128,6 +128,7 @@ definitions:
       id:
         type: "integer"
         format: "int64"
+        example: 42
       name:
         type: "string"
         example: "John doe"
