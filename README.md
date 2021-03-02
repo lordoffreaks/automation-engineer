@@ -2,6 +2,7 @@
 
 - Find the App in https://automation-engineer-test.herokuapp.com/
 - Find the Swagger file in https://automation-engineer-test.herokuapp.com/api-docs
+- Download the Swagger file for [here](https://raw.githubusercontent.com/lordoffreaks/automation-engineer/master/spec.swagger.yaml)
 
 ## First of all
 
