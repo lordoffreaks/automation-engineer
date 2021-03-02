@@ -1,6 +1,6 @@
 # Automation Engineer test
 
-- Find the App in https://automation-engineer-test.herokuapp.com/
+- The base path for the API is https://automation-engineer-test.herokuapp.com
 - Find the Swagger file in https://automation-engineer-test.herokuapp.com/api-docs
 - Download the Swagger file in [here](https://raw.githubusercontent.com/lordoffreaks/automation-engineer/master/spec.swagger.yaml)
 
@@ -20,3 +20,5 @@ In order to do that you can use whatever tool you are comfortable with.
 The output of the execise should be something that can be easily intragrated in a CI/CD pipeline
 
 ## Questions?
+
+- Feel free to ask!
